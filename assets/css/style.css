@@ -204,6 +204,16 @@ main {
     color: #fafafa;
 }
 
+/* Gallery page */
+#photos img {
+    width: 100%;
+}
+
+#photos {
+    line-height: 0;
+
+}
+
 
 /* Footer */
 #social-networks {
@@ -218,6 +228,12 @@ main {
     font-size: 160%;
     padding: 5%;
     color: #3a3a3a;
+}
+
+@media screen and (min-width: 280px) {
+    #photos {
+        margin-top: 15px;
+    }
 }
 
 /*Media query: tablets and larger (768px and up) */
