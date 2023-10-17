@@ -230,9 +230,9 @@ main {
     color: #3a3a3a;
 }
 
-@media screen and (min-width: 280px) {
-    #photos {
-        margin-top: 15px;
+@media screen and (max-width:280px) {
+    #gallery {
+        margin-top: 35px;
     }
 }
 
