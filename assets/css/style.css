@@ -210,7 +210,10 @@ main {
 }
 
 #photos {
+    display: flex;
+    flex-wrap: wrap;
     line-height: 0;
+
 
 }
 
@@ -230,9 +233,14 @@ main {
     color: #3a3a3a;
 }
 
-@media screen and (max-width:280px) {
+@media screen and (min-width:280px) {
     #gallery {
-        margin-top: 35px;
+        margin-top: 80px;
+    }
+    /* sign-up form*/
+    #signup-form {
+        margin-top:50px;
+    }
     }
 }
 
@@ -296,6 +304,9 @@ main {
         text-align: end;
         align-self: flex-end;
     }
+
+
+}
 }
 
 /* larger devices laptops and desktops (992px and up) */
