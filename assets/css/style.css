@@ -125,32 +125,36 @@ main {
     background-color: rgba(60, 60, 60, 0.6);
     padding: 30px;
 }
-#signup-form >h1{
-    color:#fafafa;
-    margin-bottom:20px;
+
+#signup-form>h1 {
+    color: #fafafa;
+    margin-bottom: 20px;
 }
+
 .text-input {
-    background:transparent;
+    background: transparent;
     color: #fafafa;
     width: 100%;
-    height:25px;
+    height: 25px;
     margin: 5px 0 20px 0;
     border: 1px solid #fafafa;
     border-radius: 2px;
     padding: 0 5px;
-} 
-.radio-buttons {
-    width:100%;
-    display:flex;
-    justify-content:space-between;
 }
+
+.radio-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
 .join-button {
- margin-top: 20px;
- border-radius: 2px;
- padding: 15px 32px;
- font-size: 100%;
- background-color:#454b1b;
- color:#fafafa;
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px;
+    font-size: 100%;
+    background-color: #454b1b;
+    color: #fafafa;
 }
 
 /* Hero section */
@@ -285,12 +289,13 @@ main {
     /* sign-up form*/
     #signup-form {
         margin-top: 50px;
+        width: 90%;
     }
 }
 }
 
 /*Media query: tablets and larger (768px and up) */
-@media screen and (min-width: 768px) {
+@media screen and (min-width:768px) {
 
     /* Header */
     nav {
@@ -350,7 +355,6 @@ main {
         align-self: flex-end;
     }
 
-
 }
 
 
@@ -359,6 +363,12 @@ main {
     #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
     }
+
+    /*Sign up section */
+    #signup-form {
+        width: 30%;
+    }
+}
 }
 
 /* extra larger screens (1200px and wider ) */
@@ -388,5 +398,11 @@ main {
 
     #benefits-phisical {
         align-self: flex-end;
+    }
+
+    /* sign up section */
+
+    #signup-form {
+        width: 30%;
     }
 }
